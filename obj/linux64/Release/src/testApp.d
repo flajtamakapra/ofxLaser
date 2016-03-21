@@ -360,7 +360,43 @@ obj/linux64/Release/src/testApp.o: \
  /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxGuiGroup.h \
  /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxButton.h \
  /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h
+ /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Path.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URI.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Format.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Any.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h \
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h
 
 /home/maxpower/Dev/openFrameworks/apps/myApps/ofxIldaExampleBasic/src/testApp.h:
 
@@ -1117,3 +1153,75 @@ obj/linux64/Release/src/testApp.o: \
 /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h:
 
 /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Path.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URI.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Format.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Any.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h:
+
+/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h:

@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxEtherdream.h"
 #include "ofxGui.h"
+#include "ofxSvg.h"
 
 class testApp : public ofBaseApp{
     
@@ -15,7 +16,7 @@ public:
     void mouseDragged(int x, int y, int button);
     void mousePressed(int x, int y, int button);
 
-
+    // GUI
 	ofParameter<float> radius;
 	ofParameter<ofColor> color;
 	ofParameter<ofVec2f> center;
@@ -26,6 +27,12 @@ public:
 	ofParameter<string> screenSize;
 
 	ofxPanel gui;
+
+	// SVG
+	ofxSVG svg;
+    float step;
+    vector<ofPolyline> outlines;
+    ofPolyline polySVG;
     
     
     ofxIlda::Frame ildaFrame;   // stores and manages ILDA frame drawings

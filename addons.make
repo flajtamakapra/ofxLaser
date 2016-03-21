@@ -1,3 +1,4 @@
 ofxEtherdream
 ofxIlda
 ofxGui
+ofxSvg

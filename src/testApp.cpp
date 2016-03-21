@@ -4,9 +4,10 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-    ofBackground(0);
+    ofBackground(100);
 
-    gui.setup("panel"); // most of the time you don't need a name but don't forget to call setup
+    // Interface graphique: possibilités de changer les paramètres du SVG
+    /*gui.setup("panel"); // most of the time you don't need a name but don't forget to call setup
     gui.add(filled.set("bFill", true));
     gui.add(radius.set( "radius", 140, 10, 300 ));
     gui.add(center.set("center",ofVec2f(ofGetWidth()*.5,ofGetHeight()*.5),ofVec2f(0,0),ofVec2f(ofGetWidth(),ofGetHeight())));
@@ -14,7 +15,33 @@ void testApp::setup(){
     gui.add(circleResolution.set("circleRes", 5, 3, 90));
     gui.add(twoCircles.setup("twoCircles"));
     gui.add(ringButton.setup("ring"));
-    gui.add(screenSize.set("screenSize", ""));
+    gui.add(screenSize.set("screenSize", ""));*/
+
+
+    // Chargement du fichier SVG
+    svg.load("foot.svg");
+    for (int i = 0;i < svg.getNumPath();i++){  
+           ofPath p = svg.getPathAt(i);  
+           p.setPolyWindingMode(OF_POLY_WINDING_ODD);  
+           vector<ofPolyline> vpl = p.getOutline(); // Here!  
+           // And if you want vertices:  
+           for(int z = 0; z < vpl.size(); z++) {  
+                     ofPolyline pl = vpl[z];  
+                     vector<ofPoint> vp = pl.getVertices();  
+
+           }  
+    }  
+
+    /*for (int i = 0; i < svg.getNumPath(); i++){
+        std::cout << i << endl;
+        ofPath p = svg.getPathAt(i);
+        // svg defaults to non zero winding which doesn't look so good as contours
+        p.setPolyWindingMode(OF_POLY_WINDING_ODD);
+        vector<ofPolyline>& lines = const_cast<vector<ofPolyline>&>(p.getOutline());
+        for(int j=0;j<(int)lines.size();j++){
+            outlines.push_back(lines[j].getResampledBySpacing(1));
+        }
+    }*/
 
     
     etherdream.setup();
@@ -35,7 +62,7 @@ void testApp::draw() {
     // draw to the screen
     ildaFrame.draw(0, 0, ofGetWidth(), ofGetHeight());
     
-    ofDrawCircle((ofVec2f)center, radius );
+    // ofDrawCircle((ofVec2f)center, radius );
 
     // send points to the etherdream
     etherdream.setPoints(ildaFrame);
@@ -43,7 +70,7 @@ void testApp::draw() {
     ofSetColor(255);
     ofDrawBitmapString(ildaFrame.getString(), 10, 30);
 
-    gui.draw();
+    //gui.draw();
 }
 
 //--------------------------------------------------------------
@@ -57,8 +84,21 @@ void testApp::keyPressed(int key){
             
             // draw rectangle
         case 'r': {
-            ofPolyline p = ofPolyline::fromRectangle(ofRectangle(ofRandomuf()/2, ofRandomuf()/2, ofRandomuf()/2, ofRandomuf()/2));
-            ildaFrame.addPoly(p);
+
+            //ofPolyline p;
+            vector<ofPoint> pts;
+            float j = 0;
+            while(j < TWO_PI+0.1) {
+                pts.push_back( ofPoint(cos(j) * 0.1, sin(j) * 0.1));
+                j+=0.1;
+            }
+            polySVG.setRightVector();
+            polySVG.clear();
+            polySVG.addVertices(pts);
+            //p = pts;
+            //ofPolyline p = ofPolyline::fromRectangle(ofRectangle(0.5, 0.5, 0.1, 0.1));
+
+            ildaFrame.addPoly(polySVG);
         }
             break;
 
