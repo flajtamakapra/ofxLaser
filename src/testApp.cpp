@@ -17,20 +17,31 @@ void testApp::setup(){
     gui.add(ringButton.setup("ring"));
     gui.add(screenSize.set("screenSize", ""));*/
 
+    // OSC receiver - listening port
+    cout << "listening for osc messages on port " << PORT << "\n";
+    receiver.setup(PORT);
+
 
     // Chargement du fichier SVG
-    svg.load("foot.svg");
+    svg.load("foot_small.svg");
     for (int i = 0;i < svg.getNumPath();i++){  
-           ofPath p = svg.getPathAt(i);  
+           ofPath p = svg.getPathAt(i);
+           p.scale(0.1, 0.1);
            p.setPolyWindingMode(OF_POLY_WINDING_ODD);  
            vector<ofPolyline> vpl = p.getOutline(); // Here!  
            // And if you want vertices:  
            for(int z = 0; z < vpl.size(); z++) {  
-                     ofPolyline pl = vpl[z];  
-                     vector<ofPoint> vp = pl.getVertices();  
+                    ofPolyline pl = vpl[z];
+                    vector<ofPoint> vp = pl.getVertices();
+                    polySVG.addVertices(vp);
 
-           }  
-    }  
+           } 
+
+    }
+
+
+//    polySVG.setRightVector();
+//    polySVG.clear();
 
     /*for (int i = 0; i < svg.getNumPath(); i++){
         std::cout << i << endl;
@@ -50,6 +61,76 @@ void testApp::setup(){
 
 //--------------------------------------------------------------
 void testApp::update(){
+
+    // ---------------------------------------------------------
+    // OSC Receiver
+    // hide old messages
+    for(int i = 0; i < NUM_MSG_STRINGS; i++){
+        if(timers[i] < ofGetElapsedTimef()){
+            msg_strings[i] = "";
+        }
+    }
+
+    // check for waiting messages
+    while(receiver.hasWaitingMessages()){
+        // get the next message
+        ofxOscMessage m;
+        receiver.getNextMessage(m);
+        
+        // Check for x coord message
+        if(m.getAddress() == "/xCoord"){
+            posX = m.getArgAsFloat(0);
+        }
+        // Check for y coord message
+        else if(m.getAddress() == "/yCoord"){
+            posY = m.getArgAsFloat(0);         
+        }
+        // Check for angle message
+        else if(m.getAddress() == "/angle" ){
+            angle = m.getArgAsFloat(0);    
+        }
+        // Check for gaucheDroite message
+        else if(m.getAddress() == "/gaucheDroite" ){
+            gaucheDroite = m.getArgAsInt32(0);    
+        }
+        // Check for onOff message
+        else if(m.getAddress() == "/laserEstActif" ){
+            laserEstActif = m.getArgAsInt32(0);    
+        }
+        else{
+            // unrecognized message: display on the bottom of the screen
+            string msg_string;
+            msg_string = m.getAddress();
+            msg_string += ": ";
+            for(int i = 0; i < m.getNumArgs(); i++){
+                // get the argument type
+                msg_string += m.getArgTypeName(i);
+                msg_string += ":";
+                // display the argument - make sure we get the right type
+                if(m.getArgType(i) == OFXOSC_TYPE_INT32){
+                    msg_string += ofToString(m.getArgAsInt32(i));
+                }
+                else if(m.getArgType(i) == OFXOSC_TYPE_FLOAT){
+                    msg_string += ofToString(m.getArgAsFloat(i));
+                }
+                else if(m.getArgType(i) == OFXOSC_TYPE_STRING){
+                    msg_string += m.getArgAsString(i);
+                }
+                else{
+                    msg_string += "unknown";
+                }
+            }
+            // add to the list of strings to display
+            msg_strings[current_msg_string] = msg_string;
+            timers[current_msg_string] = ofGetElapsedTimef() + 5.0f;
+            current_msg_string = (current_msg_string + 1) % NUM_MSG_STRINGS;
+            // clear the next line
+            msg_strings[current_msg_string] = "";
+        }
+
+    }
+    // End OSC receiver
+    // ---------------------------------------------------------
 }
 
 
@@ -59,10 +140,29 @@ void testApp::draw() {
     // do your thang
     ildaFrame.update();
     
+
+    // ---------------------------------------------------------
+    // Dessiner le pied
+    if(laserEstActif){
+        // Le pied apparaît
+        ildaFrame.addPoly(polySVG);
+
+        // Envoyer la position du pied
+        ildaFrame.params.output.transform.offset.x = posX; 
+        ildaFrame.params.output.transform.offset.x = posY;
+
+        // Envoyer l'angle du pied
+
+        // Changer de pied (gauche ou droite)
+
+    }
+    // Effacer le pied
+    else ildaFrame.clear();    
+
     // draw to the screen
     ildaFrame.draw(0, 0, ofGetWidth(), ofGetHeight());
     
-    // ofDrawCircle((ofVec2f)center, radius );
+    
 
     // send points to the etherdream
     etherdream.setPoints(ildaFrame);
@@ -86,7 +186,7 @@ void testApp::keyPressed(int key){
         case 'r': {
 
             //ofPolyline p;
-            vector<ofPoint> pts;
+            /*vector<ofPoint> pts;
             float j = 0;
             while(j < TWO_PI+0.1) {
                 pts.push_back( ofPoint(cos(j) * 0.1, sin(j) * 0.1));
@@ -97,7 +197,7 @@ void testApp::keyPressed(int key){
             polySVG.addVertices(pts);
             //p = pts;
             //ofPolyline p = ofPolyline::fromRectangle(ofRectangle(0.5, 0.5, 0.1, 0.1));
-
+*/
             ildaFrame.addPoly(polySVG);
         }
             break;
@@ -137,6 +237,7 @@ void testApp::keyPressed(int key){
         case OF_KEY_DOWN: ildaFrame.params.output.transform.offset.y += 0.05; break;
         case OF_KEY_LEFT: ildaFrame.params.output.transform.offset.x -= 0.05; break;
         case OF_KEY_RIGHT: ildaFrame.params.output.transform.offset.x += 0.05; break;
+
             
             // scale output
         case 'w': ildaFrame.params.output.transform.scale.y += 0.05; break;
@@ -157,5 +258,7 @@ void testApp::mouseDragged(int x, int y, int button){
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
     // create a new poly in the ILDA frame
+    //ildaFrame.params.output.transform.offset.y = mouseY; 
+    //ildaFrame.params.output.transform.offset.x = mouseX;
     ildaFrame.addPoly();
 }

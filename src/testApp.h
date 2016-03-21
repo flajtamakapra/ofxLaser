@@ -4,6 +4,11 @@
 #include "ofxEtherdream.h"
 #include "ofxGui.h"
 #include "ofxSvg.h"
+#include "ofxOsc.h"
+
+// listen on port 12345
+#define PORT 5050
+#define NUM_MSG_STRINGS 20
 
 class testApp : public ofBaseApp{
     
@@ -33,8 +38,17 @@ public:
     float step;
     vector<ofPolyline> outlines;
     ofPolyline polySVG;
-    
-    
+
+    //Osc Receiver
+    ofxOscReceiver receiver;
+    int current_msg_string;
+    string msg_strings[NUM_MSG_STRINGS];
+    float timers[NUM_MSG_STRINGS];
+    float posX, posY, angle;
+    int gaucheDroite, laserEstActif;
+
+
+    // OfxEtherdream    
     ofxIlda::Frame ildaFrame;   // stores and manages ILDA frame drawings
 
     ofxEtherdream etherdream;   // interface to the etherdream device

@@ -396,7 +396,23 @@ obj/linux64/Release/src/testApp.o: \
  /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Format.h \
  /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Any.h \
  /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h
+ /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h \
+ /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h
 
 /home/maxpower/Dev/openFrameworks/apps/myApps/ofxIldaExampleBasic/src/testApp.h:
 
@@ -1225,3 +1241,35 @@ obj/linux64/Release/src/testApp.o: \
 /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h:
 
 /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h:
+
+/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h:
