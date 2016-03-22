@@ -73,6 +73,10 @@ void testApp::update(){
 
     // check for waiting messages
     while(receiver.hasWaitingMessages()){
+        
+        // ** Todo, essayer avec 4 receivers en simultané si le
+        // resultat avec un seul n'est pas convenable. 
+
         // get the next message
         ofxOscMessage m;
         receiver.getNextMessage(m);
@@ -149,15 +153,17 @@ void testApp::draw() {
 
         // Envoyer la position du pied
         ildaFrame.params.output.transform.offset.x = posX; 
-        ildaFrame.params.output.transform.offset.x = posY;
+        ildaFrame.params.output.transform.offset.y = posY;
 
         // Envoyer l'angle du pied
+        ildaFrame.params.output.transform.rotate = angle;
+
 
         // Changer de pied (gauche ou droite)
 
     }
     // Effacer le pied
-    else ildaFrame.clear();    
+    else ildaFrame.clear();
 
     // draw to the screen
     ildaFrame.draw(0, 0, ofGetWidth(), ofGetHeight());
