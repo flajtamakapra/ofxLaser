@@ -20,18 +20,8 @@ public:
     void keyPressed  (int key);
     void mouseDragged(int x, int y, int button);
     void mousePressed(int x, int y, int button);
-
-    // GUI
-	ofParameter<float> radius;
-	ofParameter<ofColor> color;
-	ofParameter<ofVec2f> center;
-	ofParameter<int> circleResolution;
-	ofParameter<bool> filled;
-	ofxButton twoCircles;
-	ofxButton ringButton;
-	ofParameter<string> screenSize;
-
-	ofxPanel gui;
+    void oscRCV();
+    void svgReload(float);
 
 	// SVG
 	ofxSVG svg;
@@ -44,8 +34,11 @@ public:
     int current_msg_string;
     string msg_strings[NUM_MSG_STRINGS];
     float timers[NUM_MSG_STRINGS];
+
+    // Parametres de pas
     float posX, posY, angle;
-    int gaucheDroite, laserEstActif;
+    int gaucheDroite;
+    int laserEstActif = 0;
 
 
     // OfxEtherdream    
