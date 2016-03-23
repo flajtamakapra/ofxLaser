@@ -133,9 +133,6 @@ void testApp::oscRCV(){
 
     // check for waiting messages
     while(receiver.hasWaitingMessages()){
-        
-        // ** Todo, essayer avec 4 receivers en simultané si le
-        // resultat avec un seul n'est pas convenable. 
 
         // get the next message
         ofxOscMessage m;
