@@ -21,6 +21,20 @@ void testApp::setup(){
 void testApp::update(){
 
     oscRCV();
+
+    // Si le laser est innactif, on remet tout à zero
+    if(!laserEstActif){
+        posX = posY = angle = 0;
+    }
+    // Sinon, les traces se font seulement si toutes les coordonnées sont présentes. 
+    else if(posX && posY && angle){
+        ildaFrame.clear();      // Effacer le cadre
+        polySVG.clear();        // Effacer le SVG
+        ildaFrame.params.output.transform.offset.x = posX;  // positions x,y
+        ildaFrame.params.output.transform.offset.y = posY;
+        svgReload(angle);       // Charger le SVG avec l'angle courant  
+        ildaFrame.addPoly(polySVG); // Charger le ofPolyline
+    }
 }
 
 
