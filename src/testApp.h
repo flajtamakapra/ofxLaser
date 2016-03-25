@@ -6,7 +6,7 @@
 #include "ofxSvg.h"
 #include "ofxOsc.h"
 
-// listen on port 12345
+// OSC listen
 #define PORT 5050
 #define NUM_MSG_STRINGS 20
 
@@ -21,11 +21,13 @@ public:
     void mouseDragged(int x, int y, int button);
     void mousePressed(int x, int y, int button);
     void oscRCV();
-    void svgReload(float);
+    void svgReload();
 
 	// SVG
-	ofxSVG svg;
-    float step;
+	ofxSVG svgPiedGauche;
+    ofxSVG svgPiedDroite;
+    ofxSVG svg;
+
     vector<ofPolyline> outlines;
     ofPolyline polySVG;
 
@@ -40,9 +42,7 @@ public:
     int gaucheDroite;
     int laserEstActif = 0;
 
-
     // OfxEtherdream    
     ofxIlda::Frame ildaFrame;   // stores and manages ILDA frame drawings
-
     ofxEtherdream etherdream;   // interface to the etherdream device
 };

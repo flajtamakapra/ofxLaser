@@ -11,7 +11,9 @@ void testApp::setup(){
     receiver.setup(PORT);
 
     // Chargement du fichier SVG
-    svg.load("foot_small.svg");
+    svgPiedGauche.load("piedGauche.svg");
+    svgPiedDroite.load("piedDroite.svg");
+
     
     etherdream.setup();
     etherdream.setPPS(20000);
@@ -28,12 +30,11 @@ void testApp::update(){
     }
     // Sinon, les traces se font seulement si toutes les coordonnées sont présentes. 
     else if(posX && posY && angle){
-        ildaFrame.clear();      // Effacer le cadre
-        polySVG.clear();        // Effacer le SVG
-        ildaFrame.params.output.transform.offset.x = posX;  // positions x,y
-        ildaFrame.params.output.transform.offset.y = posY;
-        svgReload(angle);       // Charger le SVG avec l'angle courant  
-        ildaFrame.addPoly(polySVG); // Charger le ofPolyline
+
+        ildaFrame.clear();                                  // Effacer le cadre
+        polySVG.clear();                                    // Effacer le SVG
+        svgReload();                                        // Charger le SVG avec l'angle courant  
+        ildaFrame.addPoly(polySVG);                         // Charger le ofPolyline
     }
 }
 
@@ -51,7 +52,7 @@ void testApp::draw() {
     if(laserEstActif) {
         etherdream.setPoints(ildaFrame);
     }
-    
+
     ofSetColor(255);
     ofDrawBitmapString(ildaFrame.getString(), 10, 30);
 
@@ -65,19 +66,6 @@ void testApp::keyPressed(int key){
             
             // clear the frame
         case 'c': ildaFrame.clear(); break;
-            
-            // draw rectangle
-        case 'r': {
-            ildaFrame.clear();
-            polySVG.clear();
-            float angle = ofRandom(0, 180);
-            ildaFrame.params.output.transform.offset.x = ofRandom(0.2, 0.8); 
-            ildaFrame.params.output.transform.offset.y = ofRandom(0.2, 0.8);
-            svgReload(angle);
-            ildaFrame.addPoly(polySVG);
-        }
-            break;
-
 
             // toggle draw lines (on screen only)
         case 'l': ildaFrame.params.draw.lines ^= true; break;
@@ -130,14 +118,14 @@ void testApp::mouseDragged(int x, int y, int button){
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
     // create a new poly in the ILDA frame
-    //ildaFrame.params.output.transform.offset.y = mouseY; 
-    //ildaFrame.params.output.transform.offset.x = mouseX;
     ildaFrame.addPoly();
 }
 
+// ---------------------------------------------------------
+// OSC Receiver
 void testApp::oscRCV(){
-    // ---------------------------------------------------------
-    // OSC Receiver
+
+
     // hide old messages
     for(int i = 0; i < NUM_MSG_STRINGS; i++){
         if(timers[i] < ofGetElapsedTimef()){
@@ -145,30 +133,30 @@ void testApp::oscRCV(){
         }
     }
 
-    // check for waiting messages
+    // Tant qu'il y a des messages en attente
     while(receiver.hasWaitingMessages()){
 
-        // get the next message
+        // Prochain message
         ofxOscMessage m;
         receiver.getNextMessage(m);
         
-        // Check for x coord message
+        // Coordonnees X
         if(m.getAddress() == "/xCoord"){
             posX = m.getArgAsFloat(0);
         }
-        // Check for y coord message
+        // Coordonnees Y
         else if(m.getAddress() == "/yCoord"){
             posY = m.getArgAsFloat(0);         
         }
-        // Check for angle message
+        // Angle
         else if(m.getAddress() == "/angle" ){
             angle = m.getArgAsFloat(0);    
         }
-        // Check for gaucheDroite message
+        // Pied gauche, pied droite
         else if(m.getAddress() == "/gaucheDroite" ){
             gaucheDroite = m.getArgAsInt32(0);    
         }
-        // Check for onOff message
+        // Laser est actif?
         else if(m.getAddress() == "/laserEstActif" ){
             laserEstActif = m.getArgAsInt32(0);    
         }
@@ -202,22 +190,30 @@ void testApp::oscRCV(){
             // clear the next line
             msg_strings[current_msg_string] = "";
         }
-
     }
-    // End OSC receiver
-    // ---------------------------------------------------------
 }
-void testApp::svgReload(float angle){
+void testApp::svgReload(){
+
+    // Pied gauche ou pied droit
+    switch(gaucheDroite){
+        case 0:svg = svgPiedDroite; break;
+        case 1:svg = svgPiedGauche; break;
+    }
 
     for (int i = 0;i < svg.getNumPath();i++){  
+           
            ofPath p = svg.getPathAt(i);
-           p.scale(0.1, 0.1);
-           p.setPolyWindingMode(OF_POLY_WINDING_ODD);  
-           p.rotate(angle, ofVec3f(0,0,1));
-           vector<ofPolyline> vpl = p.getOutline(); // Here!  
-           // And if you want vertices:  
-           for(int z = 0; z < vpl.size(); z++) {
+           ofPoint points(posX, posY);                  // Position du shape dans la matrice
 
+           // Charger les parametres du SVG
+           p.scale(0.01, 0.01);                           // Taille
+           p.rotate(angle, ofVec3f(0,0,1));             // Angle
+           p.translate(points);                         // Position
+           
+           p.setPolyWindingMode(OF_POLY_WINDING_ODD);   // Euh'l sait pas
+           vector<ofPolyline> vpl = p.getOutline();     // Generer les outlines
+
+           for(int z = 0; z < vpl.size(); z++) {
                     ofPolyline pl = vpl[z];
                     vector<ofPoint> vp = pl.getVertices();
                     polySVG.addVertices(vp);
