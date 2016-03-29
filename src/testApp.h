@@ -7,7 +7,7 @@
 #include "ofxOsc.h"
 
 // OSC listen
-#define PORT 5050
+#define PORT 12345
 #define NUM_MSG_STRINGS 20
 
 class testApp : public ofBaseApp{

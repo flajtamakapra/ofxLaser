@@ -5,6 +5,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
     ofBackground(100);
+    //ofRotate(45,1,0,0);
 
     // OSC receiver - listening port
     cout << "listening for osc messages on port " << PORT << "\n";
@@ -203,10 +204,10 @@ void testApp::svgReload(){
     for (int i = 0;i < svg.getNumPath();i++){  
            
            ofPath p = svg.getPathAt(i);
-           ofPoint points(posX, posY);                  // Position du shape dans la matrice
+           ofPoint points(posX, posY);                  // Position du svg dans la matrice
 
            // Charger les parametres du SVG
-           p.scale(0.01, 0.01);                           // Taille
+           p.scale(0.1, 0.1);                           // Taille
            p.rotate(angle, ofVec3f(0,0,1));             // Angle
            p.translate(points);                         // Position
            
