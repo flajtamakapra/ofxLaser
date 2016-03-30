@@ -1,163 +1,163 @@
 obj/linux64/Release/src/main.o: \
- /home/maxpower/Dev/openFrameworks/apps/myApps/ofxLaser/src/main.cpp \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/ofMain.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofConstants.h \
- /home/maxpower/Dev/openFrameworks/libs/tess2/include/tesselator.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofLog.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofTypes.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofColor.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMath.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofPoint.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec3f.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec2f.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec4f.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEvents.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEventUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEvent.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofTimer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8.h \
- /home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/checked.h \
- /home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/core.h \
- /home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofThread.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AtomicCounter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Foundation.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Config.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Platform.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Alignment.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Bugcheck.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Types.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Mutex.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Exception.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ScopedLock.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Thread.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Event.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Event_POSIX.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Runnable.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SignalHandler.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/RefCountedObject.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AutoPtr.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SharedPtr.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofRectangle.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofMesh.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPixels.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofXml.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofParameter.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Document.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XML.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Node.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLString.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Event.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Element.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/Name.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/NamePool.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/expat.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/expat_external.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/Locator.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/TextEncoding.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLException.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamConverter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamUtil.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Attr.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Text.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVectorMath.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/communication/ofSerial.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/communication/ofArduino.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofFbo.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofTexture.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofVbo.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofNode.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppRunner.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofMainLoop.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofBaseApp.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPath.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofLight.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofMaterial.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofShader.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h \
+ /home/sporobole/Dev/openFrameworks/apps/myApps/ofxLaser/src/main.cpp \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/ofMain.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofConstants.h \
+ /home/sporobole/Dev/openFrameworks/libs/tess2/include/tesselator.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofLog.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofTypes.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofColor.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMath.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofPoint.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec3f.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec2f.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec4f.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEvents.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEventUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEvent.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofTimer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8.h \
+ /home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/checked.h \
+ /home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/core.h \
+ /home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofThread.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AtomicCounter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Foundation.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Config.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Platform.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Alignment.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Bugcheck.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Types.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Mutex.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Exception.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ScopedLock.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Thread.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Event.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Event_POSIX.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Runnable.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SignalHandler.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/RefCountedObject.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AutoPtr.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SharedPtr.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofRectangle.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofMesh.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPixels.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofXml.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofParameter.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Document.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XML.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Node.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLString.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Event.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Element.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/Name.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/NamePool.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/expat.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/expat_external.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/Locator.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/TextEncoding.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLException.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamConverter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamUtil.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Attr.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Text.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVectorMath.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/communication/ofSerial.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/communication/ofArduino.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofFbo.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofTexture.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofVbo.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofNode.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppRunner.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofMainLoop.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofBaseApp.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPath.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofLight.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofMaterial.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofShader.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h \
  /usr/include/cairo/cairo-features.h /usr/include/cairo/cairo-pdf.h \
  /usr/include/cairo/cairo.h /usr/include/cairo/cairo-version.h \
  /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h /usr/include/cairo/cairo-svg.h \
  /usr/include/cairo/cairo.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofImage.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h \
- /home/maxpower/Dev/openFrameworks/libs/glfw/include/GLFW/glfw3.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
- /home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fft.h \
- /home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fftr.h \
- /home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fft.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstUtils.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofImage.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h \
+ /home/sporobole/Dev/openFrameworks/libs/glfw/include/GLFW/glfw3.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
+ /home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fft.h \
+ /home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fftr.h \
+ /home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fft.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstUtils.h \
  /usr/include/gstreamer-1.0/gst/gst.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -340,345 +340,345 @@ obj/linux64/Release/src/main.o: \
  /usr/include/gstreamer-1.0/gst/video/videoorientation.h \
  /usr/include/gstreamer-1.0/gst/video/video-overlay-composition.h \
  /usr/include/gstreamer-1.0/gst/video/videooverlay.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
- /home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
- /home/maxpower/Dev/openFrameworks/apps/myApps/ofxLaser/src/testApp.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/src/ofxEtherdream.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/libs/driver/libetherdream/etherdream.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/libs/common/protocol.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaFrame.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoly.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoint.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPolyProcessor.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxGui.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxToggle.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxBaseGui.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxSlider.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxSliderGroup.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxGuiGroup.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxButton.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Path.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URI.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Format.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Any.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h \
- /home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h \
- /home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
+ /home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
+ /home/sporobole/Dev/openFrameworks/apps/myApps/ofxLaser/src/testApp.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/src/ofxEtherdream.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/libs/driver/libetherdream/etherdream.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/libs/common/protocol.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaFrame.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoly.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoint.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPolyProcessor.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxGui.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxToggle.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxBaseGui.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxSlider.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxSliderGroup.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxGuiGroup.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxButton.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Path.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URI.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Format.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Any.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h \
+ /home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h \
+ /home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/ofMain.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/ofMain.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofConstants.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofConstants.h:
 
-/home/maxpower/Dev/openFrameworks/libs/tess2/include/tesselator.h:
+/home/sporobole/Dev/openFrameworks/libs/tess2/include/tesselator.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofLog.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofLog.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofTypes.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofTypes.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofColor.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofColor.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMath.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMath.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofPoint.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofPoint.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec3f.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec3f.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec2f.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec2f.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVec4f.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVec4f.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEvents.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEvents.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEventUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEventUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/events/ofEvent.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/events/ofEvent.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofTimer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofTimer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8.h:
+/home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8.h:
 
-/home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/checked.h:
+/home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/checked.h:
 
-/home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/core.h:
+/home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/core.h:
 
-/home/maxpower/Dev/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h:
+/home/sporobole/Dev/openFrameworks/libs/utf8cpp/include/utf8/unchecked.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofThread.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofThread.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AtomicCounter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AtomicCounter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Foundation.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Foundation.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Config.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Config.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Platform.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Platform.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Alignment.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Alignment.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Bugcheck.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Bugcheck.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Types.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Types.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Mutex.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Mutex.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Exception.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Exception.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ScopedLock.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ScopedLock.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Thread.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Thread.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Event.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Event.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Event_POSIX.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Event_POSIX.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Runnable.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Runnable.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SignalHandler.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SignalHandler.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/RefCountedObject.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/RefCountedObject.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AutoPtr.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AutoPtr.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SharedPtr.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SharedPtr.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofBaseTypes.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofRectangle.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofRectangle.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofQuaternion.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofQuaternion.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofMesh.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofMesh.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPixels.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPixels.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofXml.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofXml.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofParameter.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofParameter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Document.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Document.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XML.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XML.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractContainerNode.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/AbstractNode.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Node.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Node.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/EventTarget.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMObject.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLString.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLString.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/NamespaceSupport.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/MutationEvent.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Event.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Event.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentEvent.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Element.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Element.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/Name.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/Name.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/NamePool.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/NamePool.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AutoReleasePool.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DocumentFragment.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMParser.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXParser.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/XMLReader.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/ParserEngine.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/expat.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/expat.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/expat_external.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/expat_external.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLStream.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/Locator.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/Locator.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/TextEncoding.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/TextEncoding.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMException.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLException.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLException.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/SAXException.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/XML/XMLWriter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/ContentHandler.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/LexicalHandler.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SAX/DTDHandler.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamConverter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamConverter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/UnbufferedStreamBuf.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamUtil.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamUtil.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/DOMWriter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Attr.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Attr.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/Text.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/Text.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/CharacterData.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeIterator.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeFilter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NamedNodeMap.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/ChildNodesList.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DOM/NodeList.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofVectorMath.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofVectorMath.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/communication/ofSerial.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/communication/ofSerial.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/communication/ofArduino.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/communication/ofArduino.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofFbo.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofFbo.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofTexture.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofTexture.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofVbo.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofVbo.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofNode.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofNode.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/of3dUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/of3dUtils.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppRunner.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppRunner.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofMainLoop.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofMainLoop.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofBaseApp.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofBaseApp.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofPath.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofPath.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofLight.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofLight.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofMaterial.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofMaterial.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofShader.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofShader.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/gl/ofGLProgrammableRenderer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h:
 
 /usr/include/cairo/cairo-features.h:
 
@@ -696,45 +696,45 @@ obj/linux64/Release/src/main.o: \
 
 /usr/include/cairo/cairo.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofImage.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofImage.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h:
 
-/home/maxpower/Dev/openFrameworks/libs/glfw/include/GLFW/glfw3.h:
+/home/sporobole/Dev/openFrameworks/libs/glfw/include/GLFW/glfw3.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundStream.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofRtAudioSoundStream.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofBaseSoundPlayer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fft.h:
+/home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fft.h:
 
-/home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fftr.h:
+/home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fftr.h:
 
-/home/maxpower/Dev/openFrameworks/libs/kiss/include/kiss_fft.h:
+/home/sporobole/Dev/openFrameworks/libs/kiss/include/kiss_fft.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstUtils.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstUtils.h:
 
 /usr/include/gstreamer-1.0/gst/gst.h:
 
@@ -1128,148 +1128,148 @@ obj/linux64/Release/src/main.o: \
 
 /usr/include/gstreamer-1.0/gst/video/videooverlay.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofCamera.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofCamera.h:
 
-/home/maxpower/Dev/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
+/home/sporobole/Dev/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
 
-/home/maxpower/Dev/openFrameworks/apps/myApps/ofxLaser/src/testApp.h:
+/home/sporobole/Dev/openFrameworks/apps/myApps/ofxLaser/src/testApp.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/src/ofxEtherdream.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/src/ofxEtherdream.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/libs/driver/libetherdream/etherdream.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/libs/driver/libetherdream/etherdream.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxEtherdream/libs/common/protocol.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxEtherdream/libs/common/protocol.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaFrame.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaFrame.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoly.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoly.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoint.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPoint.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPolyProcessor.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxIlda/src/ofxIldaPolyProcessor.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxGui.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxGui.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxToggle.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxToggle.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxBaseGui.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxBaseGui.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxSlider.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxSlider.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxSliderGroup.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxSliderGroup.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxGuiGroup.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxGuiGroup.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxButton.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxButton.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxPanel.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxGui/src/ofxLabel.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxSvg/src/ofxSvg.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxSvg/libs/svgTiny/src/svgtiny.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URIStreamOpener.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/StreamCopier.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Path.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Path.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URI.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URI.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPStreamFactory.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/Net.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/HTTPSession.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/StreamSocket.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/Socket.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketImpl.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketDefs.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddress.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/SocketAddressImpl.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddress.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Net/IPAddressImpl.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Timespan.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Timestamp.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/FIFOBuffer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Buffer.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/BasicEvent.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AbstractEvent.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/SingletonHolder.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveResult.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveMethod.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ActiveStarter.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/ThreadPool.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/DefaultStrategy.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Format.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Format.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/Any.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/Any.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/MetaProgramming.h:
 
-/home/maxpower/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h:
+/home/sporobole/Dev/openFrameworks/libs/poco/include/Poco/URIStreamFactory.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOsc.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscArg.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscSender.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h:
 
-/home/maxpower/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h:
+/home/sporobole/Dev/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/../ip/PacketListener.h:

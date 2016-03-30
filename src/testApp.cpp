@@ -207,7 +207,7 @@ void testApp::svgReload(){
            ofPoint points(posX, posY);                  // Position du svg dans la matrice
 
            // Charger les parametres du SVG
-           p.scale(0.1, 0.1);                           // Taille
+           p.scale(0.03, 0.05);                           // Taille
            p.rotate(angle, ofVec3f(0,0,1));             // Angle
            p.translate(points);                         // Position
            
