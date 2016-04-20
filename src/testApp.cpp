@@ -15,7 +15,7 @@ void testApp::setup(){
     svgPiedGauche.load("piedGauche.svg");
     svgPiedDroite.load("piedDroite.svg");
 
-    
+    // Chargement des parametres du Etherdream
     etherdream.setup();
     etherdream.setPPS(20000);
 }
@@ -33,7 +33,7 @@ void testApp::update(){
     else if(posX && posY && angle){
 
         ildaFrame.clear();                                  // Effacer le cadre
-        polySVG.clear();                                    // Effacer le SVG
+        polySVG.clear();                                    // Effacer les residuts
         svgReload();                                        // Charger le SVG avec l'angle courant  
         ildaFrame.addPoly(polySVG);                         // Charger le ofPolyline
     }
@@ -49,7 +49,7 @@ void testApp::draw() {
     // draw to the screen
     ildaFrame.draw(0, 0, ofGetWidth(), ofGetHeight());
     
-    // send points to the etherdream, seulement si une entree est disponible
+    // Envoyer les coordonnes au EtherDream, seulement si le laser est actif
     if(laserEstActif) {
         etherdream.setPoints(ildaFrame);
     }
