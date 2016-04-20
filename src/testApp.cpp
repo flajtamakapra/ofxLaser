@@ -143,11 +143,16 @@ void testApp::oscRCV(){
         
         // Coordonnees X
         if(m.getAddress() == "/xCoord"){
-            posX = m.getArgAsFloat(0);
+            if(checkMargin(m.getArgAsFloat(0), 0.05,0.95)){
+                posX = m.getArgAsFloat(0);                
+            }
         }
         // Coordonnees Y
         else if(m.getAddress() == "/yCoord"){
-            posY = m.getArgAsFloat(0);         
+            if(checkMargin(m.getArgAsFloat(0), 0.1,0.8)){
+                posY = m.getArgAsFloat(0);                
+            }
+
         }
         // Angle
         else if(m.getAddress() == "/angle" ){
@@ -192,6 +197,10 @@ void testApp::oscRCV(){
             msg_strings[current_msg_string] = "";
         }
     }
+}
+bool testApp::checkMargin(float val, float min, float max){
+
+    return val>=min && val<=max;
 }
 void testApp::svgReload(){
 

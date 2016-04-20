@@ -22,6 +22,7 @@ public:
     void mousePressed(int x, int y, int button);
     void oscRCV();
     void svgReload();
+    bool checkMargin(float, float, float);
 
 	// SVG
 	ofxSVG svgPiedGauche;
