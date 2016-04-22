@@ -5,7 +5,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
     ofBackground(100);
-    //ofRotate(45,1,0,0);
+    //ofRotate(-45,1,0,0);
 
     // OSC receiver - listening port
     cout << "listening for osc messages on port " << PORT << "\n";
@@ -17,7 +17,7 @@ void testApp::setup(){
 
     // Chargement des parametres du Etherdream
     etherdream.setup();
-    etherdream.setPPS(20000);
+    etherdream.setPPS(40000);
 }
 
 //--------------------------------------------------------------
@@ -149,7 +149,7 @@ void testApp::oscRCV(){
         }
         // Coordonnees Y
         else if(m.getAddress() == "/yCoord"){
-            if(checkMargin(m.getArgAsFloat(0), 0.1,0.8)){
+            if(checkMargin(m.getArgAsFloat(0), 0.05,0.95)){
                 posY = m.getArgAsFloat(0);                
             }
 
@@ -162,9 +162,17 @@ void testApp::oscRCV(){
         else if(m.getAddress() == "/gaucheDroite" ){
             gaucheDroite = m.getArgAsInt32(0);    
         }
+        // GaucheDroite a partir de touchOSC pour tests sur android - ignorer
+        else if(m.getAddress() == "/gaucheDroiteMobile" ){
+            gaucheDroite = m.getArgAsFloat(0);    
+        }
         // Laser est actif?
         else if(m.getAddress() == "/laserEstActif" ){
             laserEstActif = m.getArgAsInt32(0);    
+        }
+        // LaserEstActif a partir de touchOSC pour tests sur android - ignorer
+        else if(m.getAddress() == "/laserEstActifMobile" ){
+            laserEstActif = m.getArgAsFloat(0);    
         }
         else{
             // unrecognized message: display on the bottom of the screen
