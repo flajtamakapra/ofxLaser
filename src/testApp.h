@@ -5,6 +5,8 @@
 #include "ofxGui.h"
 #include "ofxSvg.h"
 #include "ofxOsc.h"
+#include "ofxIldaFrame.h"
+#include "ofxOpenCV"
 
 // OSC listen
 #define PORT 12345
