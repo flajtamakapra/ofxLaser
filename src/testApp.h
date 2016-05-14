@@ -6,7 +6,7 @@
 #include "ofxSvg.h"
 #include "ofxOsc.h"
 #include "ofxIldaFrame.h"
-#include "ofxOpenCV"
+#include "ofxOpenCv.h"
 
 // OSC listen
 #define PORT 12345
@@ -23,13 +23,29 @@ public:
     void mouseDragged(int x, int y, int button);
     void mousePressed(int x, int y, int button);
     void oscRCV();
-    void svgReload();
+    void svgReload(ofxSVG svg);
     bool checkMargin(float, float, float);
 
-	// SVG
+    // Video
+    ofVideoGrabber          vidGrabber;
+    ofxCvColorImage         colorImg;
+
+    ofxCvGrayscaleImage     grayImage;
+    ofxCvGrayscaleImage     grayBg;
+    ofxCvGrayscaleImage     grayPrevFrame;  // Test frame precedent
+    ofxCvGrayscaleImage     grayDiff;
+
+    ofxCvContourFinder      contourFinder;
+
+    int     threshold;
+    bool    bLearnBakground;
+    bool    modeBlobDetect;                 // false:background subtraction, true: Movement Detection
+
+
+    // SVG
 	ofxSVG svgPiedGauche;
     ofxSVG svgPiedDroite;
-    ofxSVG svg;
+    //ofxSVG svg;
 
     vector<ofPolyline> outlines;
     ofPolyline polySVG;
